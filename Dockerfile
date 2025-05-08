@@ -28,6 +28,6 @@ RUN git clone https://github.com/Curvytron/curvytron.git ${APP_DIRECTORY} && \
     bower install --allow-root && \
     gulp
 
-EXPOSE 8080
+EXPOSE 3615
 
 CMD node bin/curvytron.js
